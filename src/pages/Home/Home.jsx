@@ -45,9 +45,9 @@ function Home() {
             background: 'rgba(0, 0, 0, 0.8)',
             borderRight: '6px solid #d84f00',
             border: '2px solid #d84f00',
-            webkitBoxShadow: ' inset 1px -4px 20px 0px rgba(255, 94, 0,0.8)',
-            mozBoxShadow: 'inset 1px -4px 20px 0px rgba(255, 94, 0,0.8)',
-            boxShadow: 'inset 1px -4px 20px 0px rgba(255, 94, 0,0.8)',
+            webkitBoxShadow: ' inset 1px -1px 15px 0px rgba(255, 94, 0,0.8)',
+            mozBoxShadow: 'inset 1px -1px 15px 0px rgba(255, 94, 0,0.8)',
+            boxShadow: 'inset 1px -1px 15px 0px rgba(255, 94, 0,0.8)',
         } :
         {
             color: "black",
@@ -126,7 +126,7 @@ function Home() {
 
                             <button class="Btn">
                                 <span class="svgContainer " >
-                                    <a class='curriculum' href={`${language === 'portugues' ? "/cv/cv_pt.pdf" : "/cv/curriculum.pdf"}`}><span class="tooltiptext">CV</span> <i class="bi bi-filetype-pdf ms-2 "></i></a>
+                                    <a class='curriculum' href={`${language === 'portugues' ? "/cv/cv_p.pdf" : "/cv/cv_e.pdf"}`}><span class="tooltiptext">CV</span> <i class="bi bi-filetype-pdf ms-2 "></i></a>
 
                                 </span>
                             </button>

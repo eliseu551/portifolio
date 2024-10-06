@@ -242,7 +242,7 @@ body{
   background-clip: text;
 }
 
-body {
+body {  
   background-color: #000;
   color: white;
 }
@@ -458,7 +458,7 @@ body {
     backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
     padding: 2vw;
-    transition: 1s ease-in-out;
+    transition: 1s ease-in-out; 
     border-radius: 30px;
     display: flex;
     justify-content: center;
